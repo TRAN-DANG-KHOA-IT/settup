@@ -1,6 +1,6 @@
 import os
 
-print("""[1] pip\n[2] pip3\nWhich one do you use?""")
+print("""[1] pip\n[2] pip3\n Bạn sử dụng cái nào?""")
 rn = input(">>>")
 if rn == '1':
     os.system("pip install speedtest-cli")

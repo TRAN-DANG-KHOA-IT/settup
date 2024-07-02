@@ -3,6 +3,7 @@ import os
 print("""[1] pip\n[2] pip3\n Bạn sử dụng cái nào?""")
 rn = input(">>>")
 if rn == '1':
+    os.system("pip install --upgrade pip")
     os.system("pip install speedtest-cli")
     os.system("pip install PySocks")
     os.system("pip install cfscrape")
@@ -12,6 +13,7 @@ if rn == '1':
     os.system("pip install imcplib")
     os.system("pip install scapy")
 elif rn == '2':
+    os.system("pip install --upgrade pip3")
     os.system("pip3 install speedtest-cli")
     os.system("pip3 install PySocks")
     os.system("pip3 install cfscrape")
